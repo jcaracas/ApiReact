@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.select{
+  width: 75%;
+  
+}
+.optionSelect{
+  padding: 1rem 2.25rem 1rem 0.75rem;
+}
+.App {
+  text-align: center;
+}
+
+.carrusel {
+  width: 70%;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.carrusel img {
+  width: 300px;
+  height: 400px;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.detalleLista{
+  width: 95%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  text-align: left;
+  justify-content: flex-start;
+  margin: auto;
+  
+}
+.col2{
+  width: 29%;
+}
+.col1{
+  width: 70%;
+}
+.cabecera {
+  width: 95%;
+  text-align: center;
+  margin-left: 21px;
+}
+
+.br-0{
+  border-radius: 0% 3% 3% 0%;
+}
+.detalleAnio{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  margin: 0;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+}
+
+.pointer {
+  cursor: pointer;
+}
